@@ -2,7 +2,9 @@ package ml;
 
 public class first {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("hi");
+        int a[] = {1, 2, 3, 4, 5};
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
     }
 }
